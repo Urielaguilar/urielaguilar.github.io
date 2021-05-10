@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style para el encabezado */
+  header {
+    background-color: darkcyan;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+  
+  
+  /* Style para la lista del menu */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  article {
+    float: left;
+    padding: 20px;
+    width: 100%; /*Tamaño del ancho de la seccion del articulo*/
+    background-color: #F3EFC1;
+    height: 400px; /* tamaño de la altura de la seccion del articulo */
+  }
+  
+  /* Limpiar los flotadores despues de las columnas */
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style para el pie de pagina */
+  footer {
+    background-color: darkcyan;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+
